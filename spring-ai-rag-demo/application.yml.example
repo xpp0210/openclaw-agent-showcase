@@ -1,0 +1,31 @@
+# Spring AI RAG Demo 配置模板
+# 复制此文件为 application.yml 并填写实际的配置
+
+server:
+  port: 8080
+
+spring:
+  application:
+    name: spring-ai-rag-demo
+
+  ai:
+    openai:
+      # 替换为你的 OpenAI API Key
+      api-key: your-openai-api-key-here
+
+      chat:
+        options:
+          model: gpt-4o-mini
+
+      embedding:
+        options:
+          model: text-embedding-3-small
+
+  vectorstore:
+    pgvector:
+      enabled: false
+
+logging:
+  level:
+    org.springframework.ai: DEBUG
+    com.demo: INFO
