@@ -1,0 +1,68 @@
+{
+  "total_concepts": 56,
+  "total_notes": 71,
+  "total_edges": 862,
+  "top_linked": [
+    {
+      "name": "README",
+      "count": 110
+    },
+    {
+      "name": "Agent",
+      "count": 84
+    },
+    {
+      "name": "OpenClaw",
+      "count": 70
+    },
+    {
+      "name": "Claude Code",
+      "count": 65
+    },
+    {
+      "name": "RAG",
+      "count": 48
+    },
+    {
+      "name": "Skill",
+      "count": 47
+    },
+    {
+      "name": "MemOS",
+      "count": 43
+    },
+    {
+      "name": "Claude-Code完整指南",
+      "count": 40
+    },
+    {
+      "name": "MCP",
+      "count": 38
+    },
+    {
+      "name": "Hook",
+      "count": 32
+    },
+    {
+      "name": "PARA",
+      "count": 29
+    },
+    {
+      "name": "Obsidian",
+      "count": 29
+    },
+    {
+      "name": "AI编程推广-技术方案文档",
+      "count": 26
+    },
+    {
+      "name": "记忆热插拔完整指南",
+      "count": 25
+    },
+    {
+      "name": "自进化",
+      "count": 23
+    }
+  ],
+  "orphan_concepts": []
+}

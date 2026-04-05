@@ -85,3 +85,18 @@ curl http://localhost:8080/rag?q=什么是RAG
 ## 📄 License
 
 MIT
+
+## 🧠 知识图谱
+
+运行 `scripts/knowledge-graph.py` 生成可视化：
+
+| 指标 | 数据 |
+|------|------|
+| 概念页 | 56 |
+| 笔记 | 71 |
+| 双链关系 | 862 |
+| 孤岛概念 | 0 |
+
+TOP 5 最被引用：Agent, OpenClaw, Claude Code, RAG, Skill
+
+图数据见 `data/graph-data.json`，Mermaid图见 `data/graph.mmd`。
