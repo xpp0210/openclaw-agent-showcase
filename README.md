@@ -28,9 +28,9 @@
 <img src="docs/images/articles-collage.png" width="700" alt="已发布文章">
 
 **已发布 6 篇文章到「AI驾座」公众号：**
-1. 《拆解50万行代码：Claude Code的架构为什么让Java开发者焦虑？》
-2. 《用Spring Boot思维拆解MetaClaw》
-3. 《从Cursor到Agent编排器：Java开发者的AI编程进化路线图》
+1. 《拆解50万行代码：Claude Code的架构深度解析》
+2. 《MetaClaw：AI Agent元认知架构拆解》
+3. 《从Cursor到Agent编排器：AI编程进化路线图》
 4. 《AI Agent自主攻破FreeBSD：CVE-2026-4747深度分析》
 5. 《AI编程Agent治理：从OmX到Microsoft的方案对比》
 6. 《23万星标争夺战：AI编程Agent的"记忆"到底该怎么管？》
@@ -45,7 +45,7 @@
 | **自进化循环** | 反思 → 归因 → 规则更新 → 下次改进 | 44 次任务，100% 成功率 |
 | **全自动内容生产** | 选题 → 采集 → 写作 → 封面 → 发布 | 6 篇文章，每日定时执行 |
 | **知识图谱** | 概念页 + 双链 + Lint 健康检查 | 862 条关系，0 个孤岛 |
-| **多 Agent 协作** | 安宝（主编排）+ CodeBot（代码开发） | Spring AI RAG 项目 2 分钟交付 |
+| **多 Agent 协作** | 安宝（主编排）+ CodeBot（代码开发） | 多Agent并行，2分钟交付子任务 |
 
 ## 🏗️ 项目结构
 
@@ -91,7 +91,7 @@ python scripts/knowledge-graph.py
 | 记忆 | MemOS Local（向量 + BM25 混合检索） |
 | 知识库 | Obsidian + PARA 方法 + 双链 |
 | 发布 | 微信公众号（baoyu-post-to-wechat） |
-| 后端 | Java 11 / Spring Boot / Spring AI |
+| 脚本 | Python 3 / Bash |
 
 ## 💬 需要定制？
 
