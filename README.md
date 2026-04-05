@@ -50,28 +50,17 @@
 ## 🏗️ 项目结构
 
 ```
-├── spring-ai-rag-demo/    # Spring Boot 3.3 + Spring AI RAG 示例
-│   ├── pom.xml
-│   └── src/               # 3个Java类，最小可运行RAG
 ├── scripts/               # Agent 自进化脚本
 │   ├── reflect.sh         # 任务反思与归因分析
 │   ├── article-flow.py    # 文章生产流水线状态管理
-│   └── wiki-ingest.py     # Obsidian 笔记双链自动补全
+│   ├── wiki-ingest.py     # Obsidian 笔记双链自动补全
+│   └── knowledge-graph.py # 知识图谱可视化生成
 ├── data/
 │   └── graph-data.json    # 知识图谱数据（56节点/862边）
 └── docs/images/           # 效果截图
 ```
 
 ## 🚀 快速开始
-
-### Spring AI RAG Demo
-
-```bash
-cd spring-ai-rag-demo
-# 配置 application.yml 中的 API key
-mvn spring-boot:run
-curl http://localhost:8080/rag?q=什么是RAG
-```
 
 ### 知识图谱可视化
 
